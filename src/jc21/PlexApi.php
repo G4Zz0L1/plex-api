@@ -637,7 +637,6 @@ class PlexApi
             }
         }
 
-        curl_close($resource);
         return $response;
     }
 
